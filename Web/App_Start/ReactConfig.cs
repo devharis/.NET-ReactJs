@@ -1,3 +1,4 @@
+using React;
 using Web;
 
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(ReactConfig), "Configure")]
@@ -20,9 +21,11 @@ namespace Web
 			// add all the necessary JavaScript files here. This includes 
 			// your components as well as all of their dependencies.
 			// See http://reactjs.net/ for more information. Example:
-			//ReactSiteConfiguration.Configuration
-			//	.AddScript("~/Scripts/First.jsx")
-			//	.AddScript("~/Scripts/Second.jsx");
+		    ReactSiteConfiguration.Configuration
+		        .AddScript("~/Scripts/comment/CommentBox.jsx")
+		        .AddScript("~/Scripts/comment/CommentList.jsx")
+		        .AddScript("~/Scripts/comment/CommentForm.jsx")
+		        .AddScript("~/Scripts/comment/Comment.jsx");
 		}
 	}
 }

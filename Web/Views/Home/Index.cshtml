@@ -1,5 +1,12 @@
-﻿@{
+﻿@model IEnumerable<Web.Models.Comment>
+@{
     ViewBag.Title = "Index";
 }
-<p></p>
-<div id="content"></div>
+
+@Html.React("CommentBox", new
+            {
+                initialData = Model,
+                url = Url.Action("Comments"),
+                submitUrl = Url.Action("AddComment"),
+                pollInterval = 2000,
+            })

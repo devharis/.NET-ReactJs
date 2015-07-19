@@ -156,7 +156,7 @@
     <Content Include="Scripts\Comment\Comment.jsx" />
     <Content Include="Scripts\Comment\CommentForm.jsx" />
     <Content Include="Scripts\Comment\CommentList.jsx" />
-    <Content Include="Scripts\Comment\CommetBox.jsx" />
+    <Content Include="Scripts\Comment\CommentBox.jsx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
