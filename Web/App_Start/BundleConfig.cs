@@ -13,7 +13,9 @@ namespace Web
             ));
 
             bundles.Add(new JsxBundle("~/bundles/pagination").Include(
-                "~/Scripts/Pagination/*.jsx"
+                "~/Scripts/Pagination/PaginationList.jsx",
+                "~/Scripts/Pagination/Item.jsx",
+                "~/Scripts/Pagination/PaginationBox.jsx"
             ));
 
             // Forces files to be combined and minified in debug mode
