@@ -38,7 +38,8 @@
     <script src="~/Scripts/bootstrap.min.js"></script>
 
     <script src="http://fb.me/react-0.13.1.js"></script>
-    @Scripts.Render("~/bundles/comment")
+    @RenderSection("scripts")
+
     @Html.ReactInitJavaScript()
 </body>
 </html>

@@ -45,3 +45,4 @@ C:\Users\Haris Kljajic\Documents\Github\.NET-ReactJs\Web\bin\ru-ru\JavaScriptEng
 C:\Users\Haris Kljajic\Documents\Github\.NET-ReactJs\Web\bin\ru-ru\MsieJavaScriptEngine.resources.dll
 C:\Users\Haris Kljajic\Documents\Github\.NET-ReactJs\Web\obj\Debug\Web.dll
 C:\Users\Haris Kljajic\Documents\Github\.NET-ReactJs\Web\obj\Debug\Web.pdb
+C:\Users\Haris Kljajic\Documents\Github\.NET-ReactJs\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache

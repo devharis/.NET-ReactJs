@@ -26,6 +26,7 @@ namespace Web
 		        .AddScript("~/Scripts/comment/CommentList.jsx")
 		        .AddScript("~/Scripts/comment/CommentForm.jsx")
 		        .AddScript("~/Scripts/comment/Comment.jsx");
+		    //.AddScript("~/Scripts/pagination/PaginationBox.jsx");
 		}
 	}
 }

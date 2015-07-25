@@ -1,4 +1,5 @@
-﻿@model IEnumerable<Web.Models.Comment>
+﻿@using System.Web.Optimization
+@model IEnumerable<Web.Models.Comment>
 @{
     ViewBag.Title = "Index";
 }
@@ -10,3 +11,8 @@
                 submitUrl = Url.Action("AddComment"),
                 pollInterval = 2000,
             })
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/comment")
+}

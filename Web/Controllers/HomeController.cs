@@ -36,6 +36,11 @@ namespace Web.Controllers
             return View("Index", _comments);
         }
 
+        public ActionResult List()
+        {
+            return View("List");
+        }
+
         public ActionResult Comments()
         {
             return Json(_comments, JsonRequestBehavior.AllowGet);

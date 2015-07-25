@@ -188,6 +188,10 @@
     </Content>
     <Content Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\Pagination\PaginationBox.jsx" />
+    <Content Include="Views\Home\List.cshtml" />
+    <Content Include="Scripts\Pagination\PaginationList.jsx" />
+    <Content Include="Scripts\Pagination\Item.jsx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
